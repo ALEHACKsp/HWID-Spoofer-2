@@ -1,0 +1,7 @@
+C:\Users\Raymond Shell\source\repos\HWID Spoofer\HWID Spoofer\bin\Debug\HWID Spoofer.exe.config
+C:\Users\Raymond Shell\source\repos\HWID Spoofer\HWID Spoofer\bin\Debug\HWID Spoofer.exe
+C:\Users\Raymond Shell\source\repos\HWID Spoofer\HWID Spoofer\bin\Debug\HWID Spoofer.pdb
+C:\Users\Raymond Shell\source\repos\HWID Spoofer\HWID Spoofer\obj\Debug\HWID Spoofer.csprojAssemblyReference.cache
+C:\Users\Raymond Shell\source\repos\HWID Spoofer\HWID Spoofer\obj\Debug\HWID Spoofer.csproj.CoreCompileInputs.cache
+C:\Users\Raymond Shell\source\repos\HWID Spoofer\HWID Spoofer\obj\Debug\HWID Spoofer.exe
+C:\Users\Raymond Shell\source\repos\HWID Spoofer\HWID Spoofer\obj\Debug\HWID Spoofer.pdb
