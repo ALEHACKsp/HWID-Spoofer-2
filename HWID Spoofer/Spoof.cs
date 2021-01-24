@@ -18,7 +18,7 @@ namespace HWID_Spoofer
             WebClient webClient = new WebClient();
             string text = @"C:\\Windows\\IME\\mapper.exe";
             string text2 = @"C:\\Windows\\IME\\spoof.sys";
-            webClient.DownloadFile("https://cdn.discordapp.com/attachments/651522382200176690/660983927883825163/spoofer.sys", text2);
+            webClient.DownloadFile("https://cdn.discordapp.com/attachments/788150247876591676/803020184041684992/hwid.sys", text2);
             webClient.DownloadFile("https://cdn.discordapp.com/attachments/651522382200176690/660984792061313024/mapper_3.exe", text);
             Process process = new Process();
             process.StartInfo.FileName = "cmd.exe";
